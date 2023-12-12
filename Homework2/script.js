@@ -1,4 +1,5 @@
-let year = prompt('Enter a year:')
+let bornYear = prompt('Enter a year:')
+let year = parseInt(bornYear);
 let zodiacYear = (year - 4) % 12;
 
 if (zodiacYear === 0) {
