@@ -1,0 +1,63 @@
+body {
+  font: 130%;
+  color: white;
+  background: rgb(98, 188, 244);
+  text-align: center;
+}
+
+#key {
+  padding: 0.5% 0.9%;
+  background-color: white;
+  border: 0.4rem solid black;
+  border-radius: 0.5rem;
+  font-size: 1.7rem;
+  margin: 1% 1%;
+  opacity: 1;
+}
+
+#selectedCat {
+  margin: 3% 3%;
+}
+
+#selectedLat {
+  font-size: 2.0rem;
+}
+
+span {
+  margin-left: 1%;
+}
+
+
+#clue {
+  width: 180px;
+  margin-bottom: 3%;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 0.4rem solid #fff;
+}
+
+#clue:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 0.4rem solid #fecfef;
+}
+
+.selectedWord {
+  opacity: 0.2;
+  cursor: none;
+  transition: all 0.3s ease-in-out;
+}
+
+#alphabet {
+  background: white;
+}
+
+button {
+  width: 80px;
+  margin-bottom: 3%;
+  background-color: red;
+  border: 0.4rem solid #fff;
+}
+
+button:hover {
+  background-color: red;
+  border: 0.4rem solid #FF4081;
+}
